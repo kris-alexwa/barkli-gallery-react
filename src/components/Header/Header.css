@@ -1,0 +1,23 @@
+.header {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__burger-menu-icon {
+    width: 36px;
+    height: 24px;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+
+.header__burger-menu-icon:hover {
+    opacity: 0.8;
+}
+
+.header__phone-number {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 20px;
+}
