@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header__burger-menu-icon {
@@ -13,6 +14,17 @@
     cursor: pointer;
 }
 
+.header__menu-text {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Marcellus', serif;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    margin: 0;
+    top: 86px;
+    left: -10px;
+}
+
 .header__burger-menu-icon:hover {
     opacity: 0.8;
 }
@@ -20,4 +32,5 @@
 .header__phone-number {
     font-family: 'Marcellus', sans-serif;
     font-size: 20px;
+    margin: 0;
 }

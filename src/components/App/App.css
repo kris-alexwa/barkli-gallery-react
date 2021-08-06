@@ -12,5 +12,38 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  max-width: 1280px;
+  max-width: 1600px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title-section {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text-box {
+  max-width: 738px;
+  color: #000;
+}
+
+.text-box__title {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.text-box__description {
+  font-family: 'Open Sans Regular', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0;
 }

@@ -1,0 +1,45 @@
+.lead {
+    display: grid;
+    grid-template-columns: 75px repeat(6, 2fr) 75px;
+    grid-template-rows: auto;
+}
+
+.lead__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F1F6;
+    background-image: url(../../images/icons/joker.png);
+    background-repeat: no-repeat;
+    height: 729px;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+
+.lead__title {
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 485px;
+    margin: 0;
+}
+
+.lead__description {
+    font-family: 'Open Sans Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 653px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,46 @@
+.video-card {
+    background-color: #fff;
+    max-width: 349px;
+    position: relative;
+    padding-bottom: 47px;
+    margin-right: 20px;
+}
+
+.video-card__image {
+    width: 100%;
+    height: 208px;
+    object-fit: cover;
+}
+
+.video-card__video-title {
+    position: absolute;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    top: 156px;
+    left: 25px;
+    max-width: 167px;
+}
+
+.video-card__card-title {
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    max-width: 205px;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+
+.video-card__description {
+    font-family: 'Open Sans Regular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 307px;
+    margin: 0px 25px 0 25px;
+    color: #4D575B;
+}

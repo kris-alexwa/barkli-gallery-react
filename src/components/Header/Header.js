@@ -8,7 +8,9 @@ function Header() {
             <header className='header'>
                 <img src={burgerMenu} className='header__burger-menu-icon' alt='Иконка бургер-меню'/>
                 <p className='header__phone-number'>&#43;7&#32;495&#32;320&#x2010;02&#x2010;98</p>
+                <p className='header__menu-text'>menu</p>
             </header>
+            
         </>
     )
 }
