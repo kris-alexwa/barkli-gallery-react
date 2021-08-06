@@ -7,14 +7,17 @@
   text-rendering: optimizeLegibility;
 }
 
+.block {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .page {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
-  max-width: 1600px;
-  padding-left: 30px;
-  padding-right: 30px;
+  max-width: 100vw;
 }
 
 .title-section {
@@ -26,7 +29,6 @@
 }
 
 .text-box {
-  max-width: 738px;
   color: #000;
 }
 

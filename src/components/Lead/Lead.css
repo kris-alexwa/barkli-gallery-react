@@ -11,6 +11,7 @@
     justify-content: center;
     background-color: #E3F1F6;
     background-image: url(../../images/icons/joker.png);
+    background-position: center;
     background-repeat: no-repeat;
     height: 729px;
     grid-column-start: 2;
